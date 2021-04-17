@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class mapper {
+public class Mapper {
     public static Map<String, String> extract(String input) {
         // assume that pattern is long form (short form)
         // 1. extract the short form and corresponding long form candidates
